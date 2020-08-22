@@ -1,0 +1,5 @@
+error: unsupported repr hint for a const_table enum: expected one of u8, u16, u32 or u64 (default is u32)
+ --> $DIR/unsupported-repr.rs:7:7
+  |
+7 | #[repr(i32)]
+  |       ^^^^^

@@ -1,0 +1,8 @@
+error: a const_table enum needs at least one variant with a discriminant expression
+ --> $DIR/missing-values.rs:4:10
+  |
+4 |   enum Foo {
+  |  __________^
+5 | |     Bar { bazz: i32 }
+6 | | }
+  | |_^

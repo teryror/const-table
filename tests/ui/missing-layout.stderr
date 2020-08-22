@@ -1,0 +1,5 @@
+error: the first variant of a const_table enum should have named fields to specify the table layout
+ --> $DIR/missing-layout.rs:5:5
+  |
+5 |     Mercury = (3.303e+23, 2.4397e6),
+  |     ^^^^^^^
